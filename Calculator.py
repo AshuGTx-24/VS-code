@@ -65,3 +65,4 @@ print(addition2(10,5))
 print(substraction2(8,5))
 print(multiplication2(7,5))
 
+#author=ashutosh
