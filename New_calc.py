@@ -64,9 +64,40 @@ if operation=="div":
     """
 
 #enviroment variables
-import os
-print(os.getenv("password"))
+#import os
+#print(os.getenv("password"))
 
+#operators
+a=5
+b=6
+sum=a+b
+sub=a-b
+prod=a*b
+div=a/b
+print(sum)
+print(sub)
+print(prod)
+print(div)
+comp1=a>b
+comp2=a<b
+comp3=a<=b
+comp4=a>=b
+comp5=a==b
+comp6=a!=b
+print(comp1)
+print(comp2)
+print(comp3)
+print(comp4)
+print(comp5)
+print(comp6)
 
+total = 10
+
+total += 5
+total -= 3
+total *= 2
+total /= 4
+
+print("Final total:", total)
    
    
