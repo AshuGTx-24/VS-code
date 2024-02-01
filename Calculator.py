@@ -66,3 +66,9 @@ print(substraction2(8,5))
 print(multiplication2(7,5))
 
 #author=ashutosh
+#convert dollar into inr
+
+def dollar(numb7,numb8):
+    convert=numb7*int(numb8)
+    return convert
+print(dollar(82,input("enter dollar count :")))
