@@ -69,6 +69,7 @@ else:
 """
 
 #find maximum b/w two numbers
+""""
 import sys
 
 a=float(sys.argv[1])
@@ -78,3 +79,49 @@ if a>b: #use < to find minimum number
     print(a)
 else:
     print(b)
+"""
+
+#data_types
+
+x=5
+print(type(x))
+y={"name":"ashu","age":"25"}
+print(type(y))
+
+#integer
+x1=20
+x2=276547488
+x3=-213
+print(type(x1))
+print(type(x2))
+print(type(x3))
+
+#float
+x3=25.06
+x4=-35.09 #"e" to indicate the power of 10
+x5=87e8
+print(type(x3))
+print(type(x4))
+print(type(x5))
+
+#complex
+x6=3j
+x7=8+7j
+x8=-6j
+print(type(x6))
+print(type(x7))
+print(type(x8))
+
+#type conversion
+y1=5
+y2=5.2
+y3=3j
+a1=int(y2)
+b1=float(y1)
+c1=complex(y2)
+print(a1)
+print(b1)
+print(c1)
+print(type(a1))
+print(type(b1))
+print(type(c1))
